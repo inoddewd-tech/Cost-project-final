@@ -56,4 +56,4 @@ public class SupplierForm extends JFrame {
             for(Supplier s : suppliers) model.addRow(new Object[]{s.getId(), s.getName(), s.getContact(), s.getEmail()});
         } catch(Exception ex) { ex.printStackTrace(); }
     }
-}
+} 
